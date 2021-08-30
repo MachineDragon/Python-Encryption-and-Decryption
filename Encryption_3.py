@@ -1,0 +1,18 @@
+alphabet = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+user_input = input("Enter a secret message: ")
+
+encrypt = ""
+decrypt = ""
+
+for i in user_input:
+    place_holder = alphabet.index(i)
+    new_position = alphabet[place_holder + 5]
+    encrypt += new_position
+print(encrypt)
+
+for j in encrypt:
+    place_holder = alphabet.index(j)
+    old_position = alphabet[place_holder - 5]
+    decrypt += old_position
+print(decrypt)
