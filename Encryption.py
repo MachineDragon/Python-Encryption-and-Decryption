@@ -13,8 +13,8 @@ for i in message:
     encrypt += alphabet[new_position]
 print("encrypted message: ", encrypt)
 
-for i in encrypt:
-    pos = alphabet.find(i)
+for j in encrypt:
+    pos = alphabet.find(j)
     new_pos = (pos - 5) % 26
     decrypt += alphabet[new_pos]
 print("decrypted message: ", decrypt)
