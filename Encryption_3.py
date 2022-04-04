@@ -9,10 +9,10 @@ decrypt = ""
 for i in user_input:
     place_holder = alphabet.index(i)
     encrypt += alphabet[place_holder + 5]
-print(encrypt)
+print("Encrypted Message: " + encrypt)
 
 # To Decrypt
 for j in encrypt:
     place_holder = alphabet.index(j)
     decrypt += alphabet[place_holder - 5]
-print(decrypt)
+print("Decrypted Message: " + decrypt)
