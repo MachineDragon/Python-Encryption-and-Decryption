@@ -1,3 +1,4 @@
+// most up to date version 4/12/2022
 alphabet = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567891011"
 
 user_input = input("Enter a secret message: ")
